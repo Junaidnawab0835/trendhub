@@ -2,15 +2,42 @@
 
 An app to show current trending Github repositories
 
+## Software Required
+Android Studio / VS Code
+
+## Minimum Android Version: 21
+## Minimum IOS Version: 13.0
+
+
+## Assumptions Made During Development
+
+1. The app uses the [GitHub Trending API to fetch data.
+2. Internet connectivity is required for the app to function.
+3. If the programming language for a repository is not available, it will not be displayed.
+4. Error handling includes retry logic for API failures.
+5. Shimmer animations are used to improve user experience while loading.
+
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Follow these steps to run the project locally.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Install [Flutter](https://docs.flutter.dev/get-started/install) on your system.
+- Ensure your device/emulator is set up and ready for Flutter development.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone the repository:
+   git clone https://github.com/Junaidnawab0835/trendhub.git
+   cd trendhub
+
+2. Install dependencies:
+   flutter pub get
+
+3. Run the app:
+   flutter run
+
+4. (Optional) Build for release:
+   flutter build apk
+
