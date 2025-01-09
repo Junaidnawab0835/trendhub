@@ -30,7 +30,6 @@ Follow these steps to run the project locally.
 
 1. Clone the repository:
    git clone https://github.com/Junaidnawab0835/trendhub.git
-   cd trendhub
 
 2. Install dependencies:
    flutter pub get
